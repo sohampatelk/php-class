@@ -45,6 +45,7 @@ $myAssociativeArray['interests'][] = 'HTML';
 
 <body>
     <h1>PHP Arrays</h1>
+    <?php include './includes/navigation.php';?>
     <h2>Indexed Array</h2>
     <ul>
         <?php foreach ($myIndexedArray as $i) { ?>
@@ -64,7 +65,10 @@ $myAssociativeArray['interests'][] = 'HTML';
                 //if checking this is an array(interest ) or not.
                 if (is_array($value)) {
                     //output each element into the array
-                    foreach ($value as $e) echo $e . ',';
+                    foreach ($value as $e) 
+                    {
+                        echo $e . ',';
+                    }
                 } else {
                     echo ($value); // This array element's Value. 
                 } ?>
