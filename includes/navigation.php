@@ -12,6 +12,9 @@
     <li>
         <a href="./oop.php">OOPs</a>
     </li>
+    <li>
+        <a href="./oop-and-file.php">OOP and File Retirival/ Reading</a>
+    </li>
 </nav>
 <?php // By default, anything written in a PHP file will be sent to
       // the browser (or whatever client made the request.) See above,

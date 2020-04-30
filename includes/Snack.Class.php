@@ -34,7 +34,7 @@ class Snack
             <dt>Type</dt>
             <dd><?php echo $this->type; ?></dd>
         </dl>
-<?php // ob_get_clean() clears the output buffer, and returns what the string was.
+<?php   // ob_get_clean() clears the output buffer, and returns what the string was.
         $output = ob_get_clean(); // We now have the buffered (echo'd) string contents saved in a variable.
         if ($echo === TRUE) echo $output; // Output, if our argument tells us to.
         return $output; // Return the string.

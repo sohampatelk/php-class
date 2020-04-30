@@ -1,0 +1,29 @@
+{
+    "snacks":[
+        {
+            "name":"Cinnamon bum",
+            "price":3.25,
+            "type":"Pastry"
+        },
+        {
+            "name":"Icecream Cake",
+            "price":34.50,
+            "type":"Frozen Confectionary"
+        },
+        {
+            "name":"Gummy Bears",
+            "price":5.00,
+            "type":"Fruit"
+        },
+        {
+            "name":"Jelly Babies",
+            "price":5.55,
+            "type":"Fruit"
+        },
+        {
+            "name":"Peacan Pie/Torte",
+            "price":15.55,
+            "type":"Pie"
+        }
+    ]
+}
